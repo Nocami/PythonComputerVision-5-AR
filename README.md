@@ -132,7 +132,7 @@ show()
 代码的读入文件为下图，分别为一本书的平面俯视图以及任意视角的透视图：  
 ![image](https://github.com/Nocami/PythonComputerVision-5-AR/blob/master/images/book_frontal.JPG)  
 ![image](https://github.com/Nocami/PythonComputerVision-5-AR/blob/master/images/book_perspective.JPG)  
-运行代码后，我们可以绘制出漂亮的立方体。使用平面物体作为标记物，来计算用于新视图投影矩阵的例子。将图像的特征和对齐后的标记匹配，计算出单应性矩阵，然后用于计算照相机的姿态。带有一个灰色正方形区域的模板图像**（左图）**；从未知视角拍摄的一幅图像，该图像包含同一个正方形，该正方形已经经过估计的单应性矩阵进行了变换**（右图）**；  
+运行代码后，我们可以绘制出漂亮的立方体。使用平面物体作为标记物，来计算用于新视图投影矩阵的例子。将图像的特征和对齐后的标记匹配，计算出单应性矩阵，然后用于计算照相机的姿态。带有一个灰色正方形区域的模板图像**（左图）**  。从未知视角拍摄的一幅图像，该图像包含同一个正方形，该正方形已经经过估计的单应性矩阵进行了变换**（右图）** 。
 ![image](https://github.com/Nocami/PythonComputerVision-5-AR/blob/master/images/1111.jpg)  
 使用计算出的照相机矩阵变换立方体如下：  
 ![image](https://github.com/Nocami/PythonComputerVision-5-AR/blob/master/images/QQ%E6%88%AA%E5%9B%BE20190402151145.jpg)  
