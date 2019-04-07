@@ -317,7 +317,6 @@ while True:
 			sys.exit()
 
 ~~~
-### 运行结果
-![image]()  
-![image]()  
+### 运行结果  
+![image](https://github.com/Nocami/PythonComputerVision-5-AR/blob/master/images/theTeapot.PNG)  
 增强显示，使用由特征匹配计算出的照相机参数，将一个计算机图形学模型放置在场景中的书本上：将茶壶按照坐标轴对齐方式显示出来。  
